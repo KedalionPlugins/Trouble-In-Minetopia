@@ -1,2 +1,3 @@
 Trouble In Minetopia
+====================
 The Only Open-Source Trouble in Terrorist Town Minecraft Plugin! All rights are reserved for the name, but you may reuse code. All your code you publish using this must be open source. You also need to put: Trouble-In-Minetopia Borrowed on the beginning of your resporitory. All of our code IS COPYRIGHTED from 2012-2016. You may not reuse the ideas that are implemented new into Trouble in Minetopia. You can not directly re-compile the code. You cannot re-use the graphics implemented into the website, or implemented into Trouble In Minetopia. Trouble In Minetopia and the ideas behind it are a copyright of KedalionPlugins.   (C) 2012-2016 Trouble In Minetopia Official License.
