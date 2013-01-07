@@ -21,16 +21,18 @@ public TIMVPlayerJoinListener(TIMV plugin, int p)
  }
 
   @EventHandler
- public void onPlayerLogin(PlayerLoginEvent event) {	  	
+ public void onPlayerLogin(PlayerJoinEvent event) {	  	
   p++;
   if(gsh.isStarted() == false)
 {
-   p++;
-   String dep = ep.getDisplayName();
-   plugin.getConfig().addDefault("player.passes." + ep, 0);
-   plugin.getConfig().options().copyDefaults(true);
-   plugin.saveConfig();
-     gsh.start();
+if(plugin.getServer().getOnlinePlayers().lenght == 23)
+{
+	gsh.setStarted(true);
+	// is it implemented? When not pls change it
+	pl.assagin();
+	// Right spelling?
+	// pls export it and hand it to me via mediafire
+}
 }else{
 ep.kickPlayer("Server is Ingame");
 }
