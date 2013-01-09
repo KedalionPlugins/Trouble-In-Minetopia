@@ -28,10 +28,8 @@ public TIMVPlayerJoinListener(TIMV plugin, int p)
 if(plugin.getServer().getOnlinePlayers().lenght == 23)
 {
 	gsh.setStarted(true);
-	// is it implemented? When not pls change it
-	pl.assagin();
-	// Right spelling?
-	// pls export it and hand it to me via mediafire
+	pl.assign();
+	
 }
 }else{
 ep.kickPlayer("Server is Ingame");
